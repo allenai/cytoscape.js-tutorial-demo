@@ -1,5 +1,6 @@
 node {
   label: data(name);
+  background-color: data(color);
 }
 
 edge {

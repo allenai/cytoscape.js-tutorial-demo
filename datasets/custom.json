@@ -1,3 +1,249 @@
 [
-  
+  {
+    "data": {
+      "id": "1",
+      "name": "DOX",
+      "color": "#00FFFF",
+      "centrality": 0
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Drug_Alias"
+  },
+  {
+    "data": {
+      "id": "2",
+      "name": "liposomes",
+      "color": "#7FFF00",
+      "centrality": 1
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Biomaterial_Alias"
+  },
+  {
+    "data": {
+      "id": "3",
+      "name": "polyethylene glycol",
+      "color": "#7FFF00",
+      "centrality": 1
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Biomaterial_Alias"
+  },
+  {
+    "data": {
+      "id": "4",
+      "name": "anti-ICAM-1",
+      "color": "#F3F36B",
+      "centrality": 2
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Ligand_Alias"
+  },
+  {
+    "data": {
+      "id": "5",
+      "name": "anti-HER2",
+      "color": "#F3F36B",
+      "centrality": 2
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Ligand_Alias"
+  },
+  {
+    "data": {
+      "id": "6",
+      "name": "ICAM-1",
+      "color": "#FFA500",
+      "centrality": 3
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Target_Alias"
+  },
+  {
+    "data": {
+      "id": "7",
+      "name": "HER-2",
+      "color": "#FFA500",
+      "centrality": 3
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Target_Alias"
+
+  },
+  {
+    "data": {
+      "id": "8",
+      "name": "breast cancer",
+      "color": "#FF0000",
+      "centrality": 4
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "Cancer_Alias"
+  },
+  {
+    "data": {
+      "source": "2",
+      "target": "1",
+      "id": "e1"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "3",
+      "target": "1",
+      "id": "e2"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "2",
+      "target": "4",
+      "id": "e3"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "2",
+      "target": "5",
+      "id": "e4"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "3",
+      "target": "5",
+      "id": "e5"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "4",
+      "target": "6",
+      "id": "e6"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "5",
+      "target": "7",
+      "id": "e7"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "8",
+      "target": "6",
+      "id": "e8"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  },
+  {
+    "data": {
+      "source": "8",
+      "target": "7",
+      "id": "e9"
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "classes": "CONNECT_TO"
+  }
 ]
